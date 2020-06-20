@@ -57,7 +57,7 @@ You can see the full task and instructions given to us in [CONTRIBUTING.md](chit
 
 ### Dependencies
 
-* Written using **Ruby 2.3.3** and the **Sinatra** web framework
+* Written using **Ruby 2.7.1** and the **Sinatra** web framework
 * Testing using **RSpec** and **Capybara**
 * Built on a **PostgreSQL** database using **DataMapper** as the ORM
 * Used **Timecop** gem to mock time within the tests
@@ -121,3 +121,13 @@ You can see the full task and instructions given to us in [CONTRIBUTING.md](chit
   * I've done some initial research and looks that this would require using JQuery
 * **Introduce 'tweet and reply' bonus feature**
   * As part of the task, we were given a bonus 'tweet and reply' feature
+
+### Developing on the app
+
+Install the ruby version specified in the gemfile, if you don't have it already, with `rvm install 2.7.1` and then use this version locally by running `rvm use 2.7.1`.
+
+To install the dependencies specified in the gemfile, run `bundle install`.
+
+You can run the tests from the root of the project using `rspec`.
+
+You can run the app locally by running `rackup config.ru`.
